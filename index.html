@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A 6-month anniversary card for Ju.">
+  <title>Happy 6 Months, Ju</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500;1,600&family=Lora:ital,wght@0,400;0,500;1,400&family=Caveat:wght@500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- decorative floating hearts, populated by script.js -->
+  <div class="ambient" id="ambient" aria-hidden="true"></div>
+
+  <main class="stage">
+    <div id="envelope-scene">
+
+      <!-- closed envelope -->
+      <section class="envelope" id="envelope" aria-label="Envelope, tap the seal to open">
+        <div class="envelope-body"></div>
+        <div class="envelope-shade"></div>
+        <p class="to-line">To my darling, Ju</p>
+        <div class="flap"></div>
+        <button type="button" class="seal" id="seal" aria-label="Open the card">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 21s-7.5-4.6-10-9.1C.6 8.7 2 5 5.6 5c2 0 3.4 1 4.4 2.5C11 6 12.4 5 14.4 5 18 5 19.4 8.7 22 11.9 19.5 16.4 12 21 12 21z"/>
+          </svg>
+        </button>
+        <p class="prompt">tap the seal to open</p>
+      </section>
+
+      <!-- letter, revealed once the envelope is opened -->
+      <div class="letter-wrap">
+        <article class="letter">
+          <h1>Happy 6 Months, Ju</h1>
+          <div class="heart-rule" aria-hidden="true">❤</div>
+
+          <p>I wanted to take a moment to tell you just how much you mean to me. You are truly the most important person in my life, and I am so grateful to have you by my side through all my hard times and my happiest moments.</p>
+
+          <p>I love hearing every single little update about your day. Celebrating all your achievements — big and small — brings me so much joy, and having you there to celebrate mine and help me through the difficult days means the world to me. Every single time I see you, I find myself falling in love with you all over again. Your smile gives me complete peace of mind, and whenever I'm with you, all my stress and tension just melt away.</p>
+
+          <p>To be honest, I was living a pretty miserable life before you came along. You were like an angel that saved me from the pits of my sadness, and my world is so much brighter with you in it. I am soooo soooo lucky to have you, and I promise I will always be there for you, no matter what.</p>
+
+          <p>Here's to us and to many more beautiful months together. I love you!</p>
+
+          <p class="signature">forever yours Chakareee ❤️🥰🫰💫<span>with all my heart</span></p>
+
+          <h2 class="gallery-intro">a few of my favorite moments with you</h2>
+
+          <ul class="gallery">
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-1.jpg" alt="The two of us smiling under a sculptural walkway at golden hour" loading="lazy">
+                <figcaption>golden hour together</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-2.jpg" alt="Us hugging and laughing in a photo booth" loading="lazy">
+                <figcaption>silly us</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-3.jpg" alt="A selfie together in the car at night" loading="lazy">
+                <figcaption>late night drives</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-4.jpg" alt="Our hands clasped together on the steering wheel" loading="lazy">
+                <figcaption>hand in hand</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-5.jpg" alt="A close-up selfie of us smiling outdoors" loading="lazy">
+                <figcaption>thumbs up for us</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-6.jpg" alt="Holding hands in a movie theater" loading="lazy">
+                <figcaption>movie nights</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-7.jpg" alt="A quiet close-up selfie together outdoors" loading="lazy">
+                <figcaption>quiet afternoons</figcaption>
+              </figure>
+            </li>
+            <li class="polaroid">
+              <figure class="photo-slot">
+                <img src="images/photo-8.jpg" alt="Smiling in the car while holding a bouquet of red roses" loading="lazy">
+                <figcaption>flowers, just because</figcaption>
+              </figure>
+            </li>
+          </ul>
+
+          <footer>here's to many more ❤</footer>
+        </article>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
